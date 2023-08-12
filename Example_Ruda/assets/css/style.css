@@ -1485,6 +1485,15 @@ border-right: 2px solid var(--bs-blue);
 #departments .flex-column {
   flex-direction: column !important;
 }
+#departments img{
+  border-radius: 100%;
+  transition: transform .5s ease;
+
+}
+#departments img:hover  {
+  transform: scale(1.1);
+  cursor: pointer;
+}
 
 @media (min-width: 992px) {
   #departments .order-lg-2 {
