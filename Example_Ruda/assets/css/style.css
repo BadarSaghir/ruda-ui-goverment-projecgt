@@ -8,7 +8,7 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-:root {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans:wght@300&display=swap');:root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
@@ -1453,6 +1453,14 @@ a:focus {
     border-color: #1977cc;
   }
 
+#departments{
+  font-family: 'Open Sans', sans-serif;
+
+}
+#departments h1,#departments h2, #departments h3,#departments h4,#departments h5, #departments h6,#departments a{
+  font-family: 'Montserrat', sans-serif;
+
+}
 
 #departments  .nav-tabs .nav-link {
   margin-bottom: calc(-1 * var(--bs-nav-tabs-border-width));
