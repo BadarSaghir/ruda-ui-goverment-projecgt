@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .slider {
+          position: relative;
+          width: 100%;
+          height: 400px;
+          overflow: hidden;
+        }
+
+        .slider-container {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 300%;
+          height: 100%;
+          display: flex;
+          transition: transform 0.5s ease;
+        }
+
+        .slider-item {
+          flex: 1;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+
+        .slider-item img {
+          max-width: 100%;
+          max-height: 100%;
+        }
+
+        .slider-controls {
+          position: absolute;
+          bottom: 20px;
+          left: 50%;
+          transform: translateX(-50%);
+          display: flex;
+        }
+
+        .slider-control {
+          width: 10px;
+          height: 10px;
+          border-radius: 50%;
+          margin: 0 10px;
+          background-color: #ccc;
+          cursor: pointer;
+        }
+
+        .slider-control.active {
+          background-color: #555;
+        }
+
+    </style>
+    <link rel="icon" type="image/png" href="images/tab-logo.png"/>
+    <meta charset="utf-8">
+    <title>| Ravi Urban Development Authority</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Responsive Minimal Bootstrap Theme">
+    <meta name="keywords" content="onepage,responsive,minimal,bootstrap,theme">
+    <meta name="author" content="">
+
+
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <![endif]-->
+
+
+    <!-- CSS Files
+    ================================================== -->
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/jpreloader.css" type="text/css">
+    <link rel="stylesheet" href="css/animate.css" type="text/css">
+    <link rel="stylesheet" href="css/flexslider.css" type="text/css">
+    <link rel="stylesheet" href="css/plugin.css" type="text/css">
+    <link rel="stylesheet" href="css/prettyPhoto.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.theme.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.transitions.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+
+    <!-- custom style css -->
+    <link rel="stylesheet" href="css/custom-style.css" type="text/css">
+
+    <!-- color scheme -->
+    <link rel="stylesheet" href="css/color.css" type="text/css">
+
+    <!-- load fonts -->
+    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.css" type="text/css">
+    <link rel="stylesheet" href="fonts/elegant_font/HTML_CSS/style.css" type="text/css">
+    <link rel="stylesheet" href="fonts/et-line-font/style.css" type="text/css">
+</head>
+
+<body id="homepage">
+
+    <div id="wrapper">
+        <div class="page-overlay">
+        </div>
+
+
+        <!-- header begin -->
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <!-- logo begin -->
+                        <h1 id="logo">
+                            <a href="index.html">
+                                <img class="logo-1" src="images/logo.png" alt="">
+                                <img class="logo-2" src="images/logo-2.png" alt="">
+                            </a>
+                        </h1>
+                        <!-- logo close -->
+
+                        <!-- small button begin -->
+                        <span id="menu-btn"></span>
+                        <!-- small button close -->
+
+                        <!-- mainmenu begin -->
+                        <nav>
+                            <ul id="mainmenu">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="">About Us</a>
+                                    <ul>
+                                        <li><a href="ceo.html">CEO's Message</a></li>
+                                        <li><a href="overview.html">Overview</a></li>
+                                        <li>
+                                            <a href="legal_framework.html">Legal Framework</a>
+                                        </li>
+                                        <li><a href="About us/RUDA Health Safety and Environment Manual/RUDA Health Safety and Environment Manual.pdf" target="_blank">RUDA Health and Safety</a></li>
+                                        <li><a href="About us/EIA Reports/EIA River Training.pdf" target="_blank">EIA Reports</a></li>
+                                        <li><a href="About us/WWTP EIA/WWTP Report.pdf" target="_blank">WWTP EIA</a></li>
+                                        <li><a href="About us/WWTP EIA/WWTP Report.pdf" target="_blank">RUDA IM</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="team.html">Team</a></li>
+                                <li><a href="services.html">Services</a></li>
+                                <li><a href="chaharbagh.html">Chahar Bagh</a></li>
+                                <li><a href="notifications.html">Notifications</a></li>
+                                <li><a href="contact_us.html">Contact</a></li>
+                            </ul>
+                            </ul>
+                    </nav>
+                    <!-- mainmenu close -->
+
+                </div>
+            </div>
+        </header>
+        <!-- header close -->
+
+        <!-- content begin -->
+        <div id="content" class="no-bottom no-top">
+
+
+            <!-- section begin -->
+            <section id="section-welcome" class="full-height dark" data-stellar-background-ratio=".2">
+                <div class="center-y text-center">
+                    
+                <div class="spacer-single"></div>
+                    <div class="text-slider border-deco">
+                        <div style="font-weight:bold; color: black;" class="text-item">Welcome To <span style="color:#3c0000;" class="id-color">RUDA</span></div>
+                        <div style="font-weight:bold; color: black;" class="text-item">WE PROVIDE  <span style="color:#3c0000;" class="id-color">BEST FACILITIES</span></div>
+                    </div>
+                    
+            </section>
+            <!-- section close -->
+
+            <section id="section-team">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-md-offset-3 text-center">
+                            <h1 class="animated" data-animation="fadeInUp">Meet The <span class="id-color">Team</span>
+                                <span class="small-border animated" data-animation="fadeInUp"></span>
+                            </h1>
+                            
+                            <div class="spacer-single"></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!-- team member 1 -->
+                        <div class="de-team-list col-md-4 animated" data-animation="fadeInUp" data-delay="0">
+                            <div class="team-pic">
+                                <img src="images/team/1 Mansoor Janjua (COO).jpg" class="img-responsive" alt="" style="height:300px; width:300px" />
+                            </div>
+                            <div class="team-desc col-md-12">
+                                <h3>Brig (R) Mansoor Janjua</h3>
+                                <p class="lead">COO</p>
+                                <div class="small-border"></div>
+                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+
+                                <div class="social">
+                                    <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
+                                    <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
+                                    <a href="#"><i class="fa fa-linkedin fa-lg"></i></a>
+                                    <!-- <a href="#"><i class="fa fa-google-plus fa-lg"></i></a> -->
+                                    <!-- <a href="#"><i class="fa fa-skype fa-lg"></i></a> -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- team member 1 close -->
+
+                        <!-- team member 2 -->
+                        <div class="de-team-list col-md-4 animated" data-animation="fadeInUp" data-delay="0">
+                            <div class="team-pic">
+                                <img src="images/team/6 Muhammad Khalid Ahmad (ED - Finance).jpeg" class="img-responsive" alt="" style="height:300px; width:300px"/>
+                            </div>
+                            <div class="team-desc col-md-12">
+                                <h3>Muhammad Khalid Ahmad</h3>
+                                <p class="lead">ED – Finance</p>
+                                <div class="small-border"></div>
+                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+
+                                <div class="social">
+                                    <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
+                                    <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
+                                    <a href="#"><i class="fa fa-linkedin fa-lg"></i></a>
+                                    <!-- <a href="#"><i class="fa fa-google-plus fa-lg"></i></a> -->
+                                    <!-- <a href="#"><i class="fa fa-skype fa-lg"></i></a> -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- team member 2 close -->
+                        <!-- team member 3 -->
+                        <div class="de-team-list col-md-4 animated" data-animation="fadeInUp" data-delay="0">
+                            <div class="team-pic">
+                                <img src="images/team/9 Usman Naeem (ED ICT ).png" class="img-responsive" alt="" style="height:300px; width:300px"/>
+                            </div>
+                            <div class="team-desc col-md-12">
+                                <h3>Usman Naeem</h3>
+                                <p class="lead">ED ICT/IOT/Smart Cities</p>
+                                <div class="small-border"></div>
+                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                <div class="social">
+                                    <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
+                                    <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
+                                    <a href="#"><i class="fa fa-linkedin fa-lg"></i></a>
+                                    <!-- <a href="#"><i class="fa fa-google-plus fa-lg"></i></a> -->
+                                    <!-- <a href="#"><i class="fa fa-skype fa-lg"></i></a> -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- team member 3 close -->
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-md-offset-3 text-center">
+                            <div class="spacer-single"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- section close -->
+
+            <!-- section begin -->
+            <section id="logo-full">
+                <div class="container">
+                    <!-- logo carousel -->
+                    <div class="row">
+                        <div class="logo-carousel">
+                            <ul id="logo-carousel" class="slides">
+                                <li>
+                                    <div class="col-md-2">
+                                        <img src="images/logo/1.png" alt="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="col-md-2">
+                                        <img src="images/logo/2.png" alt="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="col-md-2">
+                                        <img src="images/logo/3.png" alt="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="col-md-2">
+                                        <img src="images/logo/4.png" alt="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="col-md-2">
+                                        <img src="images/logo/5.png" alt="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="col-md-2">
+                                        <img src="images/logo/6.png" alt="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="col-md-2">
+                                        <img src="images/logo/7.png" alt="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="col-md-2">
+                                        <img src="images/logo/8.png" alt="">
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- logo carousel close -->
+                    </div>
+
+                </div>
+            </section>
+            <!-- section close -->  
+
+            <!-- footer begin -->
+            <footer>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <div class="social-icons">
+                                <a href="https://www.facebook.com/Ravi-Urban-Development-Authority-RUDA-104034154967625" target="_blank"><i class="fa fa-facebook fa-lg"></i></a>
+                                <a href="https://twitter.com/Ravi_RUDA" target="_blank"><i class="fa fa-twitter fa-lg"></i></a>
+                                <!-- <a href="#"><i class="fa fa-rss fa-lg"></i></a> -->
+                                <a href="https://www.instagram.com/rudapakistan" target="_blank"><i class="fa fa-instagram fa-lg"></i></a>
+                                <!-- <a href="#"><i class="fa fa-skype fa-lg"></i></a> -->
+                                <a href="https://www.youtube.com/channel/UCEGXu7cPYXMjxQ1GQJqxnHg" target="_blank"><i class="fa fa-youtube fa-lg"></i></a>
+                            </div>
+                            <div class="spacer-single"></div>
+                            © Copyright 2023 - NRTC IT&CS
+                            
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- footer close -->
+        </div>
+    </div>
+
+
+    <!-- Javascript Files
+    ================================================== -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jpreLoader.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/easing.js"></script>
+    <script src="js/jquery.ui.totop.js"></script>
+    <script src="js/jquery.flexslider-min.js"></script>
+    <script src="js/jquery.scrollto.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/jquery.countTo.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/video.resize.js"></script>
+    <script src="js/validation.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/designesia.js"></script>
+
+    <!-- SLIDER REVOLUTION SCRIPTS  -->
+    <script type="text/javascript" src="rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
+    <script type="text/javascript" src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+
+</body>
+</html>
