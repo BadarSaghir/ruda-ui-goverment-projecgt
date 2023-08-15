@@ -1,0 +1,17 @@
+#doctors #doctors_cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 25px;
+    gap: 30px;
+
+}
+
+#doctors #doctors_cards .member{
+    display: flex;
+max-width: 550px;
+}
+
+#doctors #doctors_cards img:hover{
+    cursor: pointer;
+}
